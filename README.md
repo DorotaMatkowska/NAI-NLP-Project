@@ -2,10 +2,10 @@
 NLP Project
 
 **#Autorzy:**
-Filip Bianga (s19329)
-Dorota Matkowska (s19637)
-Daniek Matkowski (s18117)
-Adam Tomporowski (s16740)
+1. Filip Bianga (s19329)
+2. Dorota Matkowska (s19637)
+3. Daniek Matkowski (s18117)
+4. Adam Tomporowski (s16740)
 
 **#Milestone 01**		
 1. Załóż repozytorium wraz z system do zarządzania zadaniami (np. GitLab i Issue).							
