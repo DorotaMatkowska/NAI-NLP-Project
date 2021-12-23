@@ -69,7 +69,18 @@ W 2018 roku natomiast zaproponowano GPT-2 model języka, oparty na architekturze
 
 
 4. Daniel 
-5. Adam
+
+**a) https://www.polski-chatbot.pl/natural-language-processing-nlp-czym-jest/**
+
+To właśnie dzięki natural language processing (NLP) współczesne chatboty są sprawnymi rozmówcami. 
+Dzisiejsze chatboty powstają na bazie technologii NLP i to właśnie dzięki niej potrafią zrozumieć komunikaty ze strony użytkownika oraz prawidłowo na nie zareagować.
+NLP to jednak nie tylko same chatboty, ale też ich udźwiękowione wersje, czyli voiceboty oraz asystenci głosowi tacy jak Google Asystent, Alexa, Siri czy Bixby.
+
+Chcielibyśmy, aby chatboty potrafiły podjąć się interpretacji całej złożoności ludzkiej komunikacji, jednak nawet bez tego – radzą sobie coraz lepiej. Dzisiaj bot NLP nie tylko rozumienie znaczenie słów. Chatboty potrafią świetnie zinterpretować wypowiedzi, odszyfrować ciągi alfanumeryczne, dane osobowe, rozpoznawać imiona i nazwiska, nazwy własne, adresy, numery telefonów. Dodając do tego umiejętność umieszczania dialogu w kontekście, uzyskiwane jest całkiem dobry wynik w odczytywaniu zamiarów (intencji) użytkowników. To bardzo praktyczne zastosowania, które na co dzień są bardzo przydatne w biznesie i różnego typu organizacjach. Chatboty NLP używane są bowiem nie tylko do prowadzenia prostych rozmów, ale też obsługi całych procesów.
+
+Dostawcy usług chatbotowych zazwyczaj posiadają swoje własne NLP. Jego jakość ma duży wpływ na finalną skuteczność chatbota. Jednak nie każdy bot przygotowany na tym samym narzędziu uzyskuje identyczne wyniki. 
+
+6. Adam
 							
 
 
