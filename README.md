@@ -68,6 +68,12 @@ W 2017 roku chciano zrezygnować z sieci rekurencyjnych i zaproponowano mechaniz
 W 2018 roku natomiast zaproponowano GPT-2 model języka, oparty na architekturze głęgokiej sieci Transformer, wygenerowany na dużej ilości tekstu. 
 
 
+**b) https://summalinguae.com/pl/technologie-jezykowe/przetwarzanie-jezyka-naturalnego-a-sztuczna-inteligencja-poznaj-5-najwazniejszych-roznic/**
+
+NLP jest gałęzią sztucznej inteligencji. Algorytmy AI pozwalają maszynom analizować i przetwarzać ogromne ilości dostarczonych danych w krótkim czasie. Samo NLP jest dziedziną interdyscyplinarną, skupioną na języku. Łączy w sobie zagadnienia AI i językoznawstwa, co umożliwia np. automatyzację, tłumaczenie czy generowanie przez komputer tekstu zbliżonego do języka naturalnego. Za przykład można podać asystentów głosowych czy chatboty, które coraz śmielej wkraczają do obsługi klienta. 
+Przetwarzanie języka naturalnego jest często utożsamiane także z technologią rozpoznawania mowy. W takich rozwiązaniach wykorzystuje ono zarówno uczenie maszynowe, jak i głębokie uczenie po to, by skutecznie pozyskiwać, przetwarzać i rozpoznawać zestawy danych, które dotyczą mowy i tekstu.
+
+
 4. Daniel 
 
 **a) https://www.polski-chatbot.pl/natural-language-processing-nlp-czym-jest/**
