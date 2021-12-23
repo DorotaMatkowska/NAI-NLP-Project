@@ -23,7 +23,7 @@ NLP Project
 
 
 **#Hobby**
-Filip: 
+Filip: Muzyka
 Dorota:
 Daniel:
 Adam:
