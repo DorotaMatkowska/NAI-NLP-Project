@@ -30,7 +30,38 @@ Adam:
 
 
 **#Analiza źródeł - podsumowanie:**
-1. Filip
+1. Filip:
+
+**a) https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1**
+
+NLP reprezentuje automatyczną obsługę naturalnego języka ludzkiego, takiego jak mowa lub tekst, i chociaż sama koncepcja jest fascynująca, prawdziwa wartość tej technologii pochodzi z przypadków użycia.
+
+Kilka przykładów użycia:
+
+1. NLP umożliwia rozpoznawanie i przewidywanie chorób na podstawie elektronicznej dokumentacji medycznej. Ta zdolność jest badana w schorzeniach, od chorób sercowo-naczyniowych po depresję, a nawet schizofrenię. Na przykład Amazon Comprehend Medical to usługa, która wykorzystuje NLP do wyodrębniania stanów chorobowych , leków i wyników leczenia z notatek pacjentów, raportów z badań klinicznych i innych elektronicznych kart zdrowia.
+
+2. Organizacje mogą określić, co klienci mówią o usłudze lub produkcie, identyfikując i wydobywając informacje ze źródeł takich jak media społecznościowe. Ta analiza sentymentu może dostarczyć wielu informacji o wyborach klientów i ich motywach decyzyjnych.
+
+3. Firmy takie jak Yahoo i Google filtrują i klasyfikują Twoje e-maile za pomocą NLP, analizując tekst w e-mailach przepływających przez ich serwery i zatrzymując spam, zanim jeszcze dotrą do Twojej skrzynki odbiorczej.
+
+4. Alexa firmy Amazon i Siri firmy Apple to przykłady inteligentnych interfejsów sterowanych głosem, które wykorzystują NLP do reagowania na komunikaty głosowe i robią wszystko, na przykład znalezienie konkretnego sklepu, poinformowanie nas o prognozie pogody, zasugerowanie najlepszej drogi do biura lub włączenie światła w domu.
+
+**b) https://data-flair.training/blogs/python-chatbot-project/**
+
+Chatbot to inteligentne oprogramowanie, które jest w stanie komunikować się i wykonywać działania podobne do człowieka. Chatboty są często używane w interakcji z klientem, w marketingu, w serwisach społecznościowych i natychmiastowej komunikacji z klientem. Istnieją dwa podstawowe typy modeli chatbotów w zależności od tego, jak są zbudowane; Modele oparte na pobieraniu i generatywne.
+
+1. Modele oparte na pobieraniu
+Chatbot oparty na pobieraniu wykorzystuje predefiniowane wzorce wprowadzania i odpowiedzi. Następnie używa pewnego rodzaju podejścia heurystycznego, aby wybrać odpowiednią odpowiedź. Jest szeroko stosowany w branży do tworzenia chatbotów zorientowanych na cel, w których możemy dostosować ton i przepływ chatbota, aby zapewnić naszym klientom najlepsze wrażenia.
+
+2. Modele generatywne
+Modele generatywne nie są oparte na niektórych predefiniowanych odpowiedziach.
+Oparte są na sieciach neuronowych seq 2 seq. To ten sam pomysł, co tłumaczenie maszynowe. W tłumaczeniu maszynowym tłumaczymy kod źródłowy z jednego języka na inny, ale tutaj zamierzamy przekształcić dane wejściowe w dane wyjściowe. Potrzebuje dużej ilości danych i opiera się na sieciach Deep Neural.
+
+**c) https://www.analyticsvidhya.com/blog/2021/10/complete-guide-to-build-your-ai-chatbot-with-nlp-in-python/**
+
+Chatboty to nic innego jak aplikacje wykorzystywane przez firmy lub inne podmioty do prowadzenia automatycznej rozmowy między człowiekiem a sztuczną inteligencją. Te rozmowy mogą odbywać się za pomocą tekstu lub mowy. Chatboty muszą rozumieć i naśladować ludzką rozmowę podczas interakcji z ludźmi z całego świata. Od pierwszego chatbota, który powstał, ELIZA, do dzisiejszej ALEXA firmy Amazon, chatboty przeszły długą drogę. 
+
+
 2. Dorota:
 
 **a) https://www.youtube.com/watch?v=IUbFMt_4_Hw**
@@ -74,7 +105,7 @@ NLP jest gałęzią sztucznej inteligencji. Algorytmy AI pozwalają maszynom ana
 Przetwarzanie języka naturalnego jest często utożsamiane także z technologią rozpoznawania mowy. W takich rozwiązaniach wykorzystuje ono zarówno uczenie maszynowe, jak i głębokie uczenie po to, by skutecznie pozyskiwać, przetwarzać i rozpoznawać zestawy danych, które dotyczą mowy i tekstu.
 
 
-4. Daniel 
+3. Daniel 
 
 **a) https://www.polski-chatbot.pl/natural-language-processing-nlp-czym-jest/**
 
@@ -86,7 +117,7 @@ Chcielibyśmy, aby chatboty potrafiły podjąć się interpretacji całej złoż
 
 Dostawcy usług chatbotowych zazwyczaj posiadają swoje własne NLP. Jego jakość ma duży wpływ na finalną skuteczność chatbota. Jednak nie każdy bot przygotowany na tym samym narzędziu uzyskuje identyczne wyniki. 
 
-6. Adam
+4. Adam
 							
 
 
