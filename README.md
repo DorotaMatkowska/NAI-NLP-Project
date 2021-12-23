@@ -31,7 +31,8 @@ Adam:
 
 **#Analiza źródeł - podsumowanie:**
 1. Filip
-**2. Dorota**
+2. Dorota:
+
 **a) https://www.youtube.com/watch?v=IUbFMt_4_Hw**
 
 Pierwszym wynikiem po wpisaniu w  wyszkiwarce Google wyrażenia "NLP" jest ,,programowanie neurolingwistyczne". Bez wchodzenia w szczegóły prawdopodobnie chodzi o coś co ma związek z  wpływaniem na swój umysł, na czyiś umysł itd. 
