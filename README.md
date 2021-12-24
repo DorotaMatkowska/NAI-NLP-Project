@@ -24,9 +24,12 @@ NLP Project
 
 **#Hobby**
 Filip: Muzyka
-Dorota:Filmy i Seriale
-Daniel:Siłownia
-Adam:
+
+Dorota: Filmy i Seriale
+
+Daniel: Siłownia
+
+Adam: MTB Enduro
 
 
 **#Analiza źródeł - podsumowanie:**
@@ -299,5 +302,178 @@ Dominacja statystyki w tej dziedzinie prowadzi również często do określania 
 
 4. Adam
 							
+**a) https://becominghuman.ai/a-simple-introduction-to-natural-language-processing-ea66a1747b32**
+
+NLP jest technologią używaną do nauczania komputerów ludzkiego języka. Jako część AI, NLP skupia się na interacjach
+człowiek <-> komputer i pozwala maszynom rozumieć język naturalny. Jest to technologia zdecydowanie daleka od ideału
+jednak prężnie rozwijająca się i już dziś jest nierozłącznym elementem naszego życia:
+
+- Google Translator,
+
+- Przetwarzanie słów w oprogramowaniu takim jak MS Word,
+
+- Grammarly,
+
+- Interkatywni asystenci używani w Call Center, tzw IVR,
+
+- Asystenci personalni, tj: OK Google, Siri, Cortana, Alexa.
+
+Wszystkie te technologie wykorzystują NLP.
+
+Trudności przy tworzeniu są nieoczywiste i abstrakcyjne - jak np. nauczyć komputer ironii?
+
+**b) https://ai.pwn.pl/blog/nlp-co-to-jest-i-do-czego-sie-przydaje**
+
+**Czym jest język naturalny?** Język naturalny to język, którym komunikują się ludzie między sobą (np. język polski,
+język angielski itp.) – w przeciwieństwie, przykładowo, do języków programowania.
+
+**Czym jest przetwarzanie języka naturalnego?** NLP (ang. Natural Language Processing), czyli po polsku: przetwarzanie
+języka naturalnego, to operacje wykonywane przez komputer na wypowiedziach języka naturalnego. Operacje te mogą mieć na
+celu zrozumienie wypowiedzi, przełożenie jej na inny język czy też wygenerowanie nowej wypowiedzi.
+
+**Gdzie stosuje się NLP?** Przetwarzanie języka naturalnego stosowane jest w coraz szerszej palecie systemów
+komputerowych, realizujących takie zadania jak:
+
+- Dialog między człowiekiem a komputerem - Chatboty to systemy, które “rozmawiają” z użytkownikiem w języku naturalnym,
+  starając się skierować jego zainteresowanie na określoną tematykę – najczęściej związaną z działalnością firmy
+  udostępniającej tego typu rozwiązanie. Sposób działania chatbota jest z reguły dość prosty – system szuka w
+  wypowiedziach użytkownika wyrazów kluczowych, a następnie kieruje go do stron internetowych z nimi związanych.
+
+- Wydobywanie wiedzy z tekstu - Proces pozyskiwania dokumentów zawierających informacje związane ze sformułowanym
+  pytaniem nazywamy wydobywaniem informacji (ang. information retrieval). Na przykład w odpowiedzi na prośbę o
+  informacje dotyczące aktorów odgrywających rolę agenta Jamesa Bonda znajdujące się w zbiorze recenzji filmowych
+  uzyskamy zestaw tych wszystkich recenzji, w których szukana informacja się pojawia. Jeśli natomiast chcemy pozyskać
+  informacje podane w określonym formacie, stosujemy proces nazywany ekstrakcją informacji (ang. information extraction)
+  . Na przykład w odpowiedzi na prośbę o informacje dotyczące aktorów odgrywających rolę agenta Jamesa Bonda możemy
+  uzyskać tabelę zawierającą nazwiska stosownych aktorów oraz tytuły filmów, w których zagrali.
+
+- Analiza znaczenia tekstów - Analiza wydźwięku (ang. sentiment analysis) to rodzaj nadzorowanej klasyfikacji tekstu, w
+  ramach której kategoryzuje się opinię wyrażoną w jego treści. Najczęściej stosuje się w tym przypadku podział na trzy
+  klasy: pozytywną, negatywną oraz neutralną. W niektórych zastosowaniach analizę wydźwięku odnosi się do określonych
+  aspektów wypowiedzi. Na przykład w przypadku recenzji hotelu można skategoryzować opinię zawartą w analizowanym
+  tekście ze względu takie aspekty jak: cena, lokalizacja, poziom obsługi czy jakość wyżywienia.
+
+- Poprawa błędów językowych - Korekta pisowni to zadanie, w przypadku którego system informatyczny pełni rolę doradczą –
+  wskazuje on potencjalne błędy w tekście, pozostawiając użytkownikowi ostateczną decyzję co do ich poprawy.
+
+**c) https://www.techtarget.com/searchenterpriseai/definition/natural-language-processing-NLP**
+
+Mianem NLP określa się program komputerowy umożliwiający maszynom zrozumienie i przetworzenie języka naturalnego.
+Niezależnie, czy program przetwrza język w formie mówionej, czy pisanej - do tego zadania wykorzystywana jest sztuczna
+inteligencja.
+
+Dlaczego NLP jest tak ważne? NLP ułatwia życie w takich sytuacjach jak konieczność przetrzwania ogromnych ilości tekstu
+trzymanych w bazach danych wielko-tysięcznych korporacji. Procesowanie języka naturalnego jest też przydatne w
+sytuacjach gdzie kluczowe jest SLA - pomga zautomatyzować i przyspieszyć niektóre procesy.
+
+Głównym profitem z używania NLP jest generalne ułatwienie komunikacji z komputerami. Poza aplikacjami, które wymieniłem
+w poprzednich punktach, dziś możemy np. z poziomu asystenta głosowego w telefonie kazać Roombie popsrzątać mieszkanie.
+
+**
+d) https://ichi.pro/pl/przewodnik-dla-poczatkujacych-po-przetwarzaniu-jezyka-naturalnego-nlp-w-pythonie-analiza-sentymentu-23879425113355**
+
+Mimo ogólnego skomplikowania danego zagadnienia, podstawowe i działające NLP można stworzyć w kilku prostych krokach:
+
+1. Instalacja bibliotek.
+
+Można oczywiście wykorzystywać różne biblioteki, jednak tymi najpopularniejszymi i standardowymi są:
+
+PyTorch, NLTK, scikit-learn, spaCy
+
+2. Instalacja modelu.
+
+Import zależności
+
+```python
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+Import
+torch
+```
+
+Dla ułatwienia wykorzystajmy gotowe i wcześniej przygotowane dane
+**https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment**
+
+Stworzenie tokenizatora
+
+```python
+tokenizer = AutoTokenizer.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
+```
+
+Wczytanie tych danych wyglądałoby następująco:
+
+```python
+model = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
+```
+
+Model na podstawie zadanego tekstu (opinii) zwróci ocenę w skali 1 - 5.
+
+A więc sprawdźmy to:
+
+```python
+tokens = tokenizer.encode("this was the best class ever. i wish i could take this class again", return_tensors="pt")
+result = model(tokens)
+print(result.logits)
+print(int(torch.argmax(result.logits)) + 1)
+```
+
+> 5
+
+Na pierwszy rzut oka zrozumienie, co się dzieje z wynikami modelu, może być zniechęcające. Jednak w pewnym kontekście
+nie jest to trudne do rozszyfrowania. Model informuje nas, że wprowadzony przez nas tekst ma bardzo wysoki sentyment,
+stąd wynik 5
+
+**e) https://miroslawmamczur.pl/czym-jest-przetwarzanie-jezyka-naturalnego-nlp-i-jak-zaczac/**
+
+NLP - co to jest?
+
+Natural language processing dziedzina sztucznej inteligencji (AI), która sprawia, że język ludzki jest zrozumiały dla
+maszyn
+
+NLP łączy lingwistykę, informatykę i matematykę do badania zasad i struktury języka, co dalej umożliwia stworzenie
+systemów zdolnych do zrozumienia i analizowania tekstu lub mowy.
+
+Gdzie stosuje się NLP? Najpopularniejsze przykłady:
+
+- Wyszukiwarki internetowe (Google, Bing)
+- Asystenci internetowi (OK Googlem, Siri, Alexa, Cortana)
+- Tłumacze (Google Translator)
+
+Trudności przy tworzeniu NLP
+
+Największą trudnością przy tworzeniu NLP jest sama natura języka naturalnego - bardzo trudno jest wytłumaczyć
+komputerowi czym jest sarkazm. Problemem jest też niejednoznaczność i nieprecyzyjność języka, np. słowo "zamek" może
+oznaczać zamek w bluze, budynek lub mechanizm w drzwiach.
+
+Jak działa przetwarzanie języka naturalnego?
+
+Z wykorzystaniem algorytmów musimy zidentyfikować i wyodrębnić reguły jezyka naturalnego w taki sposób aby stał sie on
+zrozumiały dla komputerów.
+
+W pierwszym kroku należy oczyścić i uprościć dane, dzieki temu ich zrozumienie będzie łatwiejsze.
+
+Drugi krok to zamiana słów na liczby - tak aby było to zrozumiałe dla komputerów (tzw. embeddings).
+
+Następnie ma miejsce interpretacja słów za pomocą wektorów.
+
+Techniki NLP:
+
+- Analiza składni - składnia odnosi się do ułożenia słów w zdaniu w taki sposób, aby miały sens gramatyczny. W NLP
+  analiza składniowa służy do oceny zgodności języka naturalnego z regułami gramatycznymi. Algorytmy komputerowe służą
+  do stosowania reguł gramatycznych do grupy słów i wyprowadzania z nich znaczenia.
+- Analiza semantyki - semantyka odnosi się do znaczenia, jakie przekazuje tekst. Analiza semantyczna jest jednym z
+  trudnych aspektów przetwarzania języka naturalnego, który nie został jeszcze w pełni rozwiązany. Polega na
+  zastosowaniu algorytmów komputerowych w celu zrozumienia znaczenia i interpretacji słów oraz struktury zdań
+
+
+Zadania związane z procesowaniem tekstu:
+
+- OCR (Optical Character Recognition),
+- Rozpoznawanie tematów (topic modeling),
+- Automatyczne podsumowanie (automatioc summarization),
+- Analiza dokumentów (document analysis),
+- Korekcja błędów gramatycznych (Grammatical error correction),
+- Tłumaczenie maszynowe (machine translation),
+- Rozumienie języka naturalnego (Natural Language Understanding).
 
 
