@@ -187,6 +187,28 @@ Może obsługiwać duże bloki tekstowe za pomocą wydajnego strumieniowania dan
 Dzięki rozbudowanemu zestawowi narzędzi i bibliotek Python NLP programiści otrzymują wszelkie wsparcie, jakiego potrzebują podczas budowania niesamowitych narzędzi.
 Te 8 bibliotek i wrodzone cechy języka Python sprawiają, że jest on najlepszym wyborem dla każdego projektu, który opiera się na maszynowym rozumieniu ludzkich języków.
 
+**c) https://sloboda-studio.com/blog/how-to-use-nlp-for-building-a-chatbot/**
+
+NLP jest dziedziną informatyki, lingwistyki matematycznej, uczenia maszynowego i sztucznej inteligencji. NLP pomaga chatbotom analizować ludzki język i generować tekst. 
+
+Nasz język jest zjawiskiem wysoce niestrukturalnym, o elastycznych regułach. Jeśli chcemy, aby algorytmy komputerowe rozumiały te dane, powinniśmy przekształcić ludzki język w formę logiczną.
+
+Z pomocą rozumienia języka naturalnego (NLU) i generowania języka naturalnego (NLG) możliwa jest pełna automatyzacja takich procesów jak generowanie raportów finansowych czy analiza statystyk.
+
+Chatboty skryptowe: W przypadku napotkania zadania, które nie zostało zapisane w jego kodzie, bot nie będzie w stanie go wykonać.
+
+Chatboty AI: Są one oparte na NLP. Przetwarzanie języka naturalnego dla chatbota sprawia, że takie boty są bardzo podobne do ludzi. Reagują one na znaczenie całego pytania. Chatbot oparty na AI może uczyć się z każdej interakcji i poszerzać swoją wiedzę. Chatbot oparty na NLP to program komputerowy lub sztuczna inteligencja, która komunikuje się z klientem za pomocą metod tekstowych lub dźwiękowych.
+
+W naszej mowie mamy wiele elementów, które wpływają na zrozumienie chatbota i mogą stać się wyzwaniem w przetwarzaniu języka naturalnego np. Synonimy, homonimy, slang, błędy ortograficzne, skróty, akcenty. 
+
+
+Konstruując swojego pierwszego chatbota, powinniśmy przejść przez następujące etapy: 
+
+- Określić główne cechy przyszłego chatbota 
+- zbadać dostępność gotowych narzędzi, bibliotek
+- zbudować chatbota i porządnie go przetestować
+
+
 
 4. Adam
 							
