@@ -105,6 +105,42 @@ NLP jest gałęzią sztucznej inteligencji. Algorytmy AI pozwalają maszynom ana
 Przetwarzanie języka naturalnego jest często utożsamiane także z technologią rozpoznawania mowy. W takich rozwiązaniach wykorzystuje ono zarówno uczenie maszynowe, jak i głębokie uczenie po to, by skutecznie pozyskiwać, przetwarzać i rozpoznawać zestawy danych, które dotyczą mowy i tekstu.
 
 
+**c) https://realpython.com/nltk-nlp-python/**
+
+Przetwarzanie języka naturalnego (NLP) jest dziedziną, która skupia się na tym, aby naturalny język ludzki był użyteczny dla programów komputerowych. NLTK, czyli Natural Language Toolkit, to pakiet Pythona, który można wykorzystać do NLP.
+
+Warunkiem korzystania z NLTK jest posiadanie zainstalowanego Pythona. Samo NLTK instaluje sie poprzez komendę: 
+
+$ python -m pip install nltk==3.5
+
+Aby tworzyć wizualizacje dla rozpoznawania nazw własnych, należy zainstalować NumPy i Matplotlib:
+
+$ python -m pip install numpy matplotlib
+
+Tokenizacja pomaga w podzieleniu tekstu na słowa lub zdania, pozwala to na pracę z mniejszymi fragmentami tekstu. 
+Jest to pierwszy krok do przekształcenia danych nieustrukturyzowanych w dane ustrukturyzowane, które są łatwiejsze do analizy.
+
+Tokenizacja tekstu według słów pozwala na identyfikację słów, które pojawiają się szczególnie często.
+ 
+Tokenizacja według zdań, pozwala przeanalizować, jak te słowa odnoszą się do siebie i zobaczyć więcej kontekstu. 
+
+Ważne jest wydzielenie tzw. ,,Stop words" czyli słów, które chcemy zignorować, są to powszechne słowa, takie jak "in", "is" i "an" - często używane jako stop words, ponieważ same w sobie nie dodają wiele znaczenia do tekstu.
+
+Słowa treściowe dostarczają informacji o tematach poruszanych w tekście lub o odczuciach autora w stosunku do tych tematów.
+
+Słowa kontekstowe dostarczają informacji o stylu pisania.
+
+Stemming to zadanie przetwarzania tekstu, w którym redukuje się słowa do ich rdzenia, który jest główną częścią słowa. Na przykład, słowa "pomoc" i "pomocnik" mają wspólny rdzeń "pomoc". Stemming pozwala na wyzerowanie podstawowego znaczenia słowa, a nie wszystkich szczegółów, jak to jest używane. NLTK ma więcej niż jeden stemmer.
+
+Lematyzacja redukuje słowa do ich podstawowego znaczenia.
+
+Podczas gdy tokenizacja pozwala na identyfikację słów i zdań, okrajanie pozwala na identyfikację fraz.
+
+Named entities are noun phrases that refer to specific locations, people, organizations, and so on. With named entity recognition, you can find the named entities in your texts and also determine what kind of named entity they are.
+
+Kroki i definicje opisane w tutorialu będą kluczowe przy tworzeniu chatbota.
+
+
 3. Daniel 
 
 **a) https://www.polski-chatbot.pl/natural-language-processing-nlp-czym-jest/**
