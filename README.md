@@ -141,6 +141,22 @@ Named entities are noun phrases that refer to specific locations, people, organi
 Kroki i definicje opisane w tutorialu będą kluczowe przy tworzeniu chatbota.
 
 
+**d) https://www.pluralsight.com/guides/build-a-chatbot-with-python**
+
+Chatbot to narzędzie oparte na sztucznej inteligencji, stworzone do konwersacji z ludźmi w ich ojczystym języku. Chatboty stały się popularne w różnych branżach i są uważane za jedno z najbardziej użytecznych zastosowań przetwarzania języka naturalnego.
+
+NLTK jest skrótem od Natural Language Toolkit i jest wiodącą biblioteką Pythona do pracy z danymi tekstowymi. Pierwsza linia kodu poniżej importuje bibliotekę, podczas gdy druga linia używa modułu nltk.chat do importu wymaganych narzędzi.
+
+import nltk
+from nltk.chat.util import Chat, reflections
+
+Następnie można korzystać z gotowych słowników np. Reflections lub stworzyć swój własny.
+
+Ważnym krokiem jest stworzenie reguł, które posłużą do trenowania chatbota
+
+Bardziej złożone reguły mogą zostać dodane, aby jeszcze bardziej wzmocnić chatbota.
+
+
 3. Daniel 
 
 **a) https://www.polski-chatbot.pl/natural-language-processing-nlp-czym-jest/**
