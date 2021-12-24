@@ -156,6 +156,13 @@ Ważnym krokiem jest stworzenie reguł, które posłużą do trenowania chatbota
 
 Bardziej złożone reguły mogą zostać dodane, aby jeszcze bardziej wzmocnić chatbota.
 
+**e) https://www.digitalocean.com/community/tutorials/how-to-create-an-intelligent-chatbot-in-python-using-the-spacy-nlp-library**
+
+Tutorial pomaga stworzyć chatbota, który jest na tyle inteligentny, że potrafi odpowiedzieć na wypowiedź użytkownika - nawet jeśli użytkownik sformułuje swoją wypowiedź na różne sposoby. Chatbot używa API OpenWeather, aby uzyskać aktualną pogodę w mieście wskazanym przez użytkownika.
+
+Zawiera szereg komend i wskazówek, które posłużą nam podczas tworzenia naszego chatbota. 
+
+
 
 3. Daniel 
 
