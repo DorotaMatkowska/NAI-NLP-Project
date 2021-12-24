@@ -241,7 +241,19 @@ Istnieją dwa typy czatbotów:
 
 Chatboty są najlepszym zastosowaniem przetwarzania języka naturalnego i dziś są łatwe do stworzenia i zintegrowania z różnymi mediami społecznościowymi i stronami internetowymi. 
 
+**e) https://machinelearningmastery.com/natural-language-processing/**
 
+Przetwarzanie języka naturalnego, lub w skrócie NLP, jest szeroko zdefiniowane jako automatyczna manipulacja językiem naturalnym, takim jak mowa i tekst, przez oprogramowanie.
+
+Badanie przetwarzania języka naturalnego istnieje od ponad 50 lat i wywodzi się z dziedziny lingwistyki wraz ze wzrostem liczby komputerów.
+
+Język naturalny odnosi się do sposobu, w jaki my, ludzie, komunikujemy się między sobą. Jest to możliwe zarówno poprzez mowę jak i tekst.
+
+Biorąc pod uwagę znaczenie tego typu danych, musimy mieć metody, aby zrozumieć dogłębnie język naturalny. 
+
+Lingwistyka obliczeniowa stała się również znana pod nazwą Natural Language Processing (NLP), aby odzwierciedlić bardziej inżynierskie lub empiryczne podejście metod statystycznych.
+
+Dominacja statystyki w tej dziedzinie prowadzi również często do określania NLP jako Statistical Natural Language Processing (Statystyczne przetwarzanie języka naturalnego), być może w celu zdystansowania jej od klasycznych metod lingwistyki obliczeniowej.
 
 4. Adam
 							
