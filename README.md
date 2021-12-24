@@ -24,8 +24,8 @@ NLP Project
 
 **#Hobby**
 Filip: Muzyka
-Dorota:
-Daniel:
+Dorota:Filmy i Seriale
+Daniel:Siłownia
 Adam:
 
 
