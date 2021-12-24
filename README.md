@@ -224,6 +224,16 @@ Konstruując swojego pierwszego chatbota, powinniśmy przejść przez następuj�
 - zbadać dostępność gotowych narzędzi, bibliotek
 - zbudować chatbota i porządnie go przetestować
 
+**d) https://www.analyticsvidhya.com/blog/2021/07/build-a-simple-chatbot-using-python-and-nltk/**
+
+Istnieją dwa typy czatbotów:
+
+1) Chatboty oparte na regułach - Jak sama nazwa wskazuje, istnieją pewne reguły, na których chatbot działa. Podobnie jak w przypadku modelu uczenia maszynowego, szkolimy chatboty na intencjach użytkowników i odpowiednich odpowiedziach, a na podstawie tych informacji chatbot identyfikuje nowego użytkownika i odpowiada na nie.
+
+2) Samouczące się chatboty - Samouczące się boty są wysoce wydajne, ponieważ są w stanie złapać i zidentyfikować intencje użytkownika na własną rękę. Są one zbudowane przy użyciu zaawansowanych narzędzi i technik uczenia maszynowego, głębokiego uczenia i NLP. 
+
+Chatboty są najlepszym zastosowaniem przetwarzania języka naturalnego i dziś są łatwe do stworzenia i zintegrowania z różnymi mediami społecznościowymi i stronami internetowymi. 
+
 
 
 4. Adam
