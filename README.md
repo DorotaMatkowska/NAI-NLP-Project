@@ -117,6 +117,43 @@ Chcielibyśmy, aby chatboty potrafiły podjąć się interpretacji całej złoż
 
 Dostawcy usług chatbotowych zazwyczaj posiadają swoje własne NLP. Jego jakość ma duży wpływ na finalną skuteczność chatbota. Jednak nie każdy bot przygotowany na tym samym narzędziu uzyskuje identyczne wyniki. 
 
+**b) https://sunscrapers.com/blog/8-best-python-natural-language-processing-nlp-libraries/**
+
+Technologie oparte na NLP mogą dostarczyć szerokiego wachlarza cennych spostrzeżeń i rozwiązań problemów językowych, z jakimi mogą spotkać się konsumenci podczas interakcji z produktem.
+
+Nie bez powodu giganci technologiczni, tacy jak Google, Amazon czy Facebook, przeznaczają miliony dolarów na tę dziedzinę badań, aby zasilić swoje chatboty, wirtualnych asystentów, silniki rekomendacji i inne rozwiązania oparte na uczeniu maszynowym.
+
+Ponieważ NLP opiera się na zaawansowanych umiejętnościach obliczeniowych, programiści potrzebują najlepszych dostępnych narzędzi, które pomogą w pełni wykorzystać podejścia i algorytmy NLP do tworzenia usług, które mogą obsługiwać języki naturalne.
+
+Obecnie programiści mogą korzystać z gotowych narzędzi, które upraszczają wstępne przetwarzanie tekstu, dzięki czemu mogą skupić się na budowaniu modeli uczenia maszynowego.
+
+Python dostarcza programistom bogatą kolekcję narzędzi i bibliotek NLP, które pozwalają na obsługę dużej liczby zadań związanych z NLP, takich jak klasyfikacja dokumentów, modelowanie tematów, znakowanie części mowy (POS), wektory słów i analiza sentymentu.
+
+Przykłady takich bibliotek:
+- Natural Language Toolkit (NLTK): odegrała kluczową rolę w przełomowych badaniach nad NLP; jest podstawową biblioteką wspierającą takie zadania jak klasyfikacja, tagowanie, parsowanie, rozumowanie semantyczne i tokenizacja w Pythonie. Jest to w zasadzie główne narzędzie do przetwarzania języka naturalnego i uczenia maszynowego. 
+Biblioteka ta jest dość wszechstronna, ale jest też doiść trudna w użyciu dla NLP w języku Python. NLTK może nie być dość szybki by odpowiedzieć na wymagania szybkiego użycia w produkcji. Krzywa uczenia się jest stroma, ale programiści mogą skorzystać z zasobów NLTK aby dowiedzieć się wuęcej o koncepcjach stojących za zadaniami przetwarzania języka obsługiwanymi przez ten zestaw narzędzi.
+
+- TextBlob: jest podstawą dla programistów chcących wejść w temat NLP w Pythonie przy jednocześnie maksymalnym uzysku podczas pierwszego natknięcia się na NLTK. Zapewnia ona prosty interfejs do nauki wiekszości prostych zadań w NLP jak analiza sentymentów, post-tagging lub ekstrakcja rzeczownika z wyrażenia. Jednak ta biblioteka, podobnie jak NLTK jest zbyt powolna by sprostać wymaganiom użycia produkcyjnego.
+
+- CoreNLP: Największą zaletą biblioteki CoreNLP jest jej szybkość i sprawność w środowiskach product dewelopmentu. Niektóre komponenty CoreNLP mogą być integrowane z NLTK co daje nam finalnie wzrost efektywności.
+
+- Gensim: specjalizuje się w identyfikowaniu podobieństw semantycznych między dwoma dokumentami przy pomocy zestawu narzędzi do modelowania przestrzeni wektorowej oraz modelowania tematycznego.
+Może obsługiwać duże bloki tekstowe za pomocą wydajnego strumieniowania danych i algorytmów przyrostowych, co jest więcej niż możemy powiedzieć o innych pakietach, które są ukierunkowane tylko na przetwarzanie wsadowe i w pamięci. Największa jego zaleta to niesamowita optymalizacja wykorzystania pamięci i szybkość przetwarzania. Zostały one osiągnięte z pomocą innej biblioteki Pythona, NumPy.
+
+- spaCy: jest stosunkowo młodą biblioteką, która została zaprojektowana do użytku produkcyjnego. SpaCypaCy oferuje najszybszy parser składniowy dostępny obecnie na rynku. Co więcej, ponieważ zestaw narzędzi napisany jest w Cythonie, jest on również bardzo szybki i wydajny.
+
+- polygot: oferuje szeroki zakres analiz i imponujące pokrycie językowe. Dzięki NumPy, działa również naprawdę szybko. Używanie polyglota jest podobne do spaCy - jest bardzo wydajny i prosty. Biblioteka wyróżnia się z tłumu również tym, że wymaga użycia dedykowanej komendy w linii poleceń poprzez mechanizmy pipeline.
+
+- scikit-learn: Ta poręczna biblioteka NLP udostępnia programistom szeroki zakres algorytmów do budowy modeli uczenia maszynowego. Oferuje wiele funkcji pozwalających na wykorzystanie metody bag-of-words do tworzenia cech w celu rozwiązywania problemów klasyfikacji tekstu.
+
+Biblioteka ta nie wykorzystuje jednak sieci neuronowych do wstępnego przetwarzania tekstu. 
+
+- Pattern: Pattern pozwala na tagowanie części mowy, analizę sentymentu, modelowanie przestrzeni wektorowej, SVM, klasteryzację, wyszukiwanie n-gramów i WordNet. Można skorzystać z parsera DOM, crawlera stron internetowych, a także kilku przydatnych API, takich jak Twitter czy Facebook. Mimo to, narzędzie to jest w zasadzie web minerem i może nie wystarczyć do wykonania innych zadań związanych z przetwarzaniem języka naturalnego.
+
+Dzięki rozbudowanemu zestawowi narzędzi i bibliotek Python NLP programiści otrzymują wszelkie wsparcie, jakiego potrzebują podczas budowania niesamowitych narzędzi.
+Te 8 bibliotek i wrodzone cechy języka Python sprawiają, że jest on najlepszym wyborem dla każdego projektu, który opiera się na maszynowym rozumieniu ludzkich języków.
+
+
 4. Adam
 							
 
