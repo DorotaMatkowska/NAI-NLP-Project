@@ -61,6 +61,48 @@ Oparte są na sieciach neuronowych seq 2 seq. To ten sam pomysł, co tłumaczeni
 
 Chatboty to nic innego jak aplikacje wykorzystywane przez firmy lub inne podmioty do prowadzenia automatycznej rozmowy między człowiekiem a sztuczną inteligencją. Te rozmowy mogą odbywać się za pomocą tekstu lub mowy. Chatboty muszą rozumieć i naśladować ludzką rozmowę podczas interakcji z ludźmi z całego świata. Od pierwszego chatbota, który powstał, ELIZA, do dzisiejszej ALEXA firmy Amazon, chatboty przeszły długą drogę. 
 
+**d) https://www.sas.com/en_nz/insights/analytics/what-is-natural-language-processing-nlp.html**
+
+Dlaczego NLP jest ważne?
+
+1. Duże ilości danych tekstowych
+
+	Przetwarzanie języka naturalnego pomaga komputerom komunikować się z ludźmi w ich własnym języku i skalować inne zadania związane z językiem. Na przykład NLP umożliwia komputerom czytanie tekstu, słuchanie mowy, interpretowanie go, mierzenie sentymentu i określanie, które części są ważne. 
+
+	Dzisiejsze maszyny mogą analizować więcej danych opartych na języku niż ludzie, bez zmęczenia i w spójny, bezstronny sposób. Biorąc pod uwagę oszałamiającą ilość nieustrukturyzowanych danych generowanych każdego dnia, od dokumentacji medycznej po media społecznościowe, automatyzacja będzie miała kluczowe znaczenie dla pełnej analizy danych tekstowych i mowy.
+
+2. Strukturyzacja wysoce nieustrukturyzowanego źródła danych
+
+	Język ludzki jest zdumiewająco złożony i różnorodny. Wyrażamy się na nieskończone sposoby, zarówno werbalnie, jak i pisemnie. Istnieją nie tylko setki języków i dialektów, ale w każdym języku istnieje unikalny zestaw reguł gramatycznych i składniowych, terminów i slangu. 	Kiedy piszemy, często błędnie piszemy lub skracamy słowa lub pomijamy znaki interpunkcyjne. Kiedy mówimy, mamy regionalne akcenty, mamroczemy, jąkamy się i zapożyczamy terminy z innych języków. 
+
+	Podczas gdy uczenie nadzorowane i nienadzorowane, a w szczególności uczenie głębokie, jest obecnie szeroko stosowane do modelowania ludzkiego języka, istnieje również potrzeba zrozumienia składniowego i semantycznego oraz wiedzy specjalistycznej w dziedzinie, które niekoniecznie są obecne w tych podejściach do uczenia maszynowego. NLP jest ważne, ponieważ pomaga rozwiązać niejasności w języku i dodaje przydatną strukturę numeryczną do danych dla wielu dalszych aplikacji, takich jak rozpoznawanie mowy lub analiza tekstu. 
+
+
+Ograniczenie skarg klientów dzięki NLP:
+
+Dla przykładu Royal Bank of Scotland wykorzystuje analizę tekstu , technikę NLP, aby wyodrębnić ważne trendy z opinii klientów w wielu formach. Firma analizuje dane z e-maili, ankiet i rozmów w call center, aby zidentyfikować podstawową przyczynę niezadowolenia klientów i wdrożyć ulepszenia.
+
+**e) https://www.upgrad.com/blog/how-to-make-chatbot-in-python/**
+
+W tym artykule przechodzimy krok po kroku od podstawowych pojęć czym jest chatbot aż do stworzenia własnego bota.
+
+1. Chatbot w dzisiejszej generacji
+
+	Obecnie dysponujemy inteligentnymi Chatbotami opartymi na sztucznej inteligencji, które wykorzystują przetwarzanie języka naturalnego (NLP), aby rozumieć polecenia człowieka (tekst i głos) i uczyć się na doświadczeniu. Chatboty stały się podstawowym narzędziem interakcji z klientami dla firm i marek, które aktywnie działają w Internecie (strona internetowa i platformy społecznościowe).
+
+2. Biblioteka ChatterBota
+
+	ChatterBot to biblioteka Pythona zaprojektowana do dostarczania automatycznych odpowiedzi na dane wejściowe użytkownika. Wykorzystuje kombinację algorytmów ML do generowania wielu różnych typów odpowiedzi. Ta funkcja umożliwia programistom tworzenie chatbotów za pomocą Pythona, które mogą rozmawiać z ludźmi i dostarczać odpowiednie i trafne odpowiedzi. Nie tylko to, algorytmy ML pomagają botowi poprawić jego wydajność dzięki doświadczeniu. 
+
+Kolejną doskonałą cechą ChatterBota jest jego niezależność językowa. Biblioteka została zaprojektowana w sposób, który umożliwia wyszkolenie bota w wielu językach programowania.
+
+3. Jak działa ChatterBot?
+
+	Gdy użytkownik wprowadzi określone dane wejściowe w chatbocie (opracowanym na ChatterBocie), bot zapisuje je wraz z odpowiedzią do wykorzystania w przyszłości. Te dane (zgromadzone doświadczenia) pozwalają chatbotowi generować automatyczne odpowiedzi za każdym razem, gdy wprowadzane są do niego nowe dane wejściowe.
+
+Program wybiera najbardziej pasującą odpowiedź z najbliższej instrukcji, która pasuje do danych wejściowych, a następnie dostarcza odpowiedź z już znanego wyboru stwierdzeń i odpowiedzi. Z biegiem czasu, gdy chatbot angażuje się w więcej interakcji, poprawia się dokładność odpowiedzi.
+
+W kolejnej części artykułu przechodzimy po kolei krok po kroku jak stworzyć własnego chatbota.
 
 2. Dorota:
 
