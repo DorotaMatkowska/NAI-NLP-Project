@@ -68,7 +68,7 @@ Chatboty to nic innego jak aplikacje wykorzystywane przez firmy lub inne podmiot
 
 Pierwszym wynikiem po wpisaniu w  wyszkiwarce Google wyrażenia "NLP" jest ,,programowanie neurolingwistyczne". Bez wchodzenia w szczegóły prawdopodobnie chodzi o coś co ma związek z  wpływaniem na swój umysł, na czyiś umysł itd. 
 
-Jednak nas interesuje NLP w kontekście sztucznej inteligencji, gdzie rozwija się jako Natural Language Processing czyli przetwarzanie języka anturalnego, odpowiada na pytanie "Jak nauczyć komputer posługiwac się pojeciami, którymi na codzień posługują się ludzie?".
+Jednak nas interesuje NLP w kontekście sztucznej inteligencji, gdzie rozwija się jako Natural Language Processing czyli przetwarzanie języka naturalnego, odpowiada na pytanie "Jak nauczyć komputer posługiwac się pojeciami, którymi na codzień posługują się ludzie?".
 
 Pierwsze z zastosowań NLP  to rozpoznawanie mowy; mówimy do mikrofonu lub posiadamy nagranie, chcemy żeby program odpowiedział co zostało nagrane. 
 
@@ -144,9 +144,7 @@ Może obsługiwać duże bloki tekstowe za pomocą wydajnego strumieniowania dan
 
 - polygot: oferuje szeroki zakres analiz i imponujące pokrycie językowe. Dzięki NumPy, działa również naprawdę szybko. Używanie polyglota jest podobne do spaCy - jest bardzo wydajny i prosty. Biblioteka wyróżnia się z tłumu również tym, że wymaga użycia dedykowanej komendy w linii poleceń poprzez mechanizmy pipeline.
 
-- scikit-learn: Ta poręczna biblioteka NLP udostępnia programistom szeroki zakres algorytmów do budowy modeli uczenia maszynowego. Oferuje wiele funkcji pozwalających na wykorzystanie metody bag-of-words do tworzenia cech w celu rozwiązywania problemów klasyfikacji tekstu.
-
-Biblioteka ta nie wykorzystuje jednak sieci neuronowych do wstępnego przetwarzania tekstu. 
+- scikit-learn: Ta poręczna biblioteka NLP udostępnia programistom szeroki zakres algorytmów do budowy modeli uczenia maszynowego. Oferuje wiele funkcji pozwalających na wykorzystanie metody bag-of-words do tworzenia cech w celu rozwiązywania problemów klasyfikacji tekstu. Biblioteka ta nie wykorzystuje jednak sieci neuronowych do wstępnego przetwarzania tekstu. 
 
 - Pattern: Pattern pozwala na tagowanie części mowy, analizę sentymentu, modelowanie przestrzeni wektorowej, SVM, klasteryzację, wyszukiwanie n-gramów i WordNet. Można skorzystać z parsera DOM, crawlera stron internetowych, a także kilku przydatnych API, takich jak Twitter czy Facebook. Mimo to, narzędzie to jest w zasadzie web minerem i może nie wystarczyć do wykonania innych zadań związanych z przetwarzaniem języka naturalnego.
 
