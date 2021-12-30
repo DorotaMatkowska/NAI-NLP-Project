@@ -228,8 +228,6 @@
       "patterns": [
         "Why do you like movies?",
         "Why do you like series?"
-
-
       ],
       "responses": [
         "It relaxes me.",
@@ -243,23 +241,6 @@
       "tag": "movies_questions-about-director",
       "patterns": [
         "Who is your favorite director?"
-
-
-      ],
-      "responses": [
-        "Christopher Nolan",
-        "Steven Spielberg",
-        "Martin Scorsese"
-
-      ]
-    },
-
-    {
-      "tag": "movies_questions-about-director",
-      "patterns": [
-        "Who is your favorite director?"
-
-
       ],
       "responses": [
         "Christopher Nolan",
@@ -268,7 +249,6 @@
 
       ]
     }
-
 
   ]
 }
