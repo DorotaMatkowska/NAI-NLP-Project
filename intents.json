@@ -248,6 +248,90 @@
         "Martin Scorsese"
 
       ]
+    },
+
+    {
+      "tag": "mtb_general",
+      "patterns": [
+        "Tell me about MTB",
+        "Tell me about Mount Bikes",
+        "Tell me about Mount Terrain Bikes",
+        "What does MTB mean?",
+        "What does Mountain Bike mean?",
+        "What does Mountain Terrain Bike mean?",
+        "What do you know about bikes?",
+        "What do you know about mountain bikes?",
+        "What do you know about Mountain Terrain bikes?"
+      ],
+      "responses": [
+        "MTB stands for Mountain Terrain Bikes which are the most popular bikes and are meant for off-road cycling.",
+        "Mountain Terrain Bikes (MTB) in general mean bikes for off-road. Most popular categories of MTB are: Cross-country, Downhill, Enduro, Trail"
+
+      ]
+    },
+    {
+      "tag": "mtb_pros",
+      "patterns": [
+        "What are differences between MTB and other bikes?",
+        "What are differences between MTB and road bikes?",
+        "What are differences between Mountain Terrain Bikes and road bikes?",
+        "What are differences between Mountain Terrain Bikes and other bikes?",
+        "What are pros of MTB?",
+        "What are pros of Mountain Terrain Bikes?"
+      ],
+      "responses": [
+        "You are not limited to asphalt roads.",
+        "MTB is full body workout!",
+        "You can take air-time on MTB which feels nice :)",
+        "You ride your way"
+      ]
+    },
+    {
+      "tag": "mtb_how_to_start",
+      "patterns": [
+        "I'm looking for my first MTB",
+        "I'm looking for my first Mountain Bike",
+        "I'm looking for my first Mountain Terrain Bike",
+        "I'm looking for my first bike",
+        "I want to buy a bike"
+      ],
+      "responses": [
+        "It's always clever to listen to the experts. https://youtu.be/h79vGEASXZ0",
+        "Here you go https://letmegooglethat.com/?q=what+mtb+bike+should+I+buy",
+        "Trek, Santa Cruz, Canyon and Specialized are top brands for many years now. They are always worth to check!"
+      ]
+    },
+    {
+      "tag": "mtb_must_haves",
+      "patterns": [
+        "I already have my bike. What should I buy next?",
+        "I already have my MTB. What should I buy next?",
+        "I already have my Mountain Terrain Bike. What should I buy next?",
+        "What should I buy next?",
+        "What equipment I need?"
+      ],
+      "responses": [
+        "Helmet is crucial. Always wear it!",
+        "Helmet, protectors and gloves.",
+        "Always remember about protection. Better safe than sorry!"
+      ]
+    },
+    {
+      "tag": "mtb_extra_info",
+      "patterns": [
+        "Is there anything else?",
+        "Should I know more about MTB?",
+        "Should I know more about bikes?",
+        "Should I know more about Mountain Terrain Bike?",
+        "Should I know anything else about MTB?",
+        "Should I know anything else about bikes?",
+        "Should I know anything else about Mountain Terrain Bike?"
+      ],
+      "responses": [
+        "There are lots of useful apps for cyclists. Check out Strava and Trailforks.",
+        "Trailforks will help you find the best trails in your area.",
+        "With Strava you can compare your performance with others."
+      ]
     }
 
   ]
