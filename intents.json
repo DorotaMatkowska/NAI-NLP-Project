@@ -175,12 +175,12 @@
       "patterns": [
         "Do you like comedies?",
         "Do you like horrors?",
-        "What do you thing about thrillers?",
-        "What do you thing about telenovelas?"
+        "What do you think about thrillers?",
+        "What do you think about telenovelas?"
       ],
       "responses": [
-        "Yes, i like it.",
-        "No, I do not like it."
+        "I like it.",
+        "I do not like it."
       ]
     },
     
