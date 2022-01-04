@@ -71,10 +71,10 @@
     },
 
     {
-      "tag": "movies-positive-questions",
+      "tag": "movies_and_series-favourite-movie",
       "patterns": [
-        "What is your favourite film?",
-        "Can you recommend a movie?",
+        "Your favourite movie is?",
+        "Can you recommend the movie?",
         "Do you like any movies?",
         "Have you seen a good movie recently?"
       ],
@@ -82,19 +82,17 @@
         "'Matrix' is ok",
         "I love 'Les miserables'!",
         "'Dune' is great. I think you should see it.",
-        "Watch 'Lord of the Rings'",
-        "Watch 'Saving Private Ryan'",
-        "Instead of a movie, you'll watch a TV series",
+        "'Lord of the Rings'",
         "'The green mile' is a good movie",
         "'Pulp Fiction' is a good movie",
-        "Watch 'The Godfather'",
+        "'The Godfather'",
         "'Inception' is awesome."
 
       ]
     },
 
     {
-      "tag": "movies-negative-questions",
+      "tag": "movies_and_series-not-recommended-movies",
       "patterns": [
         "What movie do you not recommend?",
         "What is the worst movie in the world?",
@@ -102,16 +100,14 @@
       ],
       "responses": [
         "'How to Lose a Guy in 10 Days' is terrible",
-        "I don't like any movies",
         "'The Hangover' is awful",
-        "Instead of a movie, you'll watch a TV series",
         "'Home Alone' is not a good film"
 
       ]
     },
 
     {
-      "tag": "TV_series-and-movies-platform-questions",
+      "tag": "movies_and_series-platform-questions",
       "patterns": [
         "Where do you watch TV series?",
         "Where do you watch movies?"
@@ -120,85 +116,50 @@
         "Netflix",
         "HBO Go",
         "Netflix and HBO Go",
-        "At the cinema only",
         "On DVD only"
 
       ]
     },
 
     {
-      "tag": "TV_series-positive-questions",
+      "tag": "movies_and_series-favourite series",
       "patterns": [
-        "What is your favourite series?",
-        "Can you recommend a series?",
+        "Your favourite series is?",
+        "Can you recommend any series?",
         "Do you like any series?",
-        "Have you seen a good series recently?"
+        "Have you watched any good series lately?"
       ],
       "responses": [
-        "'Once upone a time' is ok",
-        "I love 'Game of Thrones'!",
-        "'Stranger Things' is great. I think you should see it.",
-        "Watch 'How I Met Your Mother'",
-        "Watch 'Black Mirror'",
-        "Instead of a series, you'll watch a movie",
+        "'Dr House' is ok",
+        "'Game of Thrones'!",
+        "'Narcos' is great. I think you should see it.",
+        "'Friends'",
+        "'Black Mirror'",
         "'Suits' is a good series",
-        "'The Big Bang Theory' is a good series",
-        "Watch 'The Witcher'",
+        "'Rick & Morty' is a good series",
+        "'The Witcher'",
         "'Westworld' is awesome."
 
       ]
     },
 
-    {
-      "tag": "TV_series-negative-questions",
+     {
+      "tag": "movies_and_series-not-recoomended-series",
       "patterns": [
-        "what series do you not recommend?",
-        "what is the worst TV series in the world?",
-        "what TV series is bad?"
+        "What series do you not recommend?",
+        "what is the worst TV series in the world?"
       ],
       "responses": [
         "'Lucifer' is terrible",
-        "'Married... with Children' is awful",
-        "Instead of a movie, you'll watch a TV series",
+        "'The Winx Saga'",
         "'Desperate Housewives' is not a good series"
       ]
     },
-
+   
     {
-      "tag": "movies_and_series-positive-phrases",
+      "tag": "movies_and_series-movies_categories",
       "patterns": [
-        "Thanks, I've never seen this.",
-        "Thanks, I'll watch.",
-        "I've never seen this.",
-        "I'll watch."
-      ],
-      "responses": [
-        "Watch it, you won't regret it",
-        "Enjoy the show"
-
-      ]
-    },
-
-    {
-      "tag": "movies_and_series-negative-phrases",
-      "patterns": [
-        "Thanks, I'm not sure it's for me.",
-        "I'm not sure it's for me.",
-        "I don't know if I'll like it.",
-        "Maybe someday I'll watch.",
-        "I don't like it"
-      ],
-      "responses": [
-        "Watch it, you won't regret it.",
-        "Then maybe we can talk about something else?"
-
-      ]
-    },
-
-    {
-      "tag": "movies_categories",
-      "patterns": [
-        "What is the best type of films?"
+        "what is the best type of movies?"
       ],
       "responses": [
         "I like comedies.",
@@ -209,8 +170,8 @@
       ]
     },
 
-    {
-      "tag": "movies_categories-part2",
+     {
+      "tag": "movies_and_series-movies_categories-part2",
       "patterns": [
         "Do you like comedies?",
         "Do you like horrors?",
@@ -222,30 +183,29 @@
         "No, I do not like it."
       ]
     },
-
+    
     {
-      "tag": "movies_questions-part2",
+      "tag": "movies_and_series_questions",
       "patterns": [
-        "Why do you like movies?",
-        "Why do you like series?"
+        "Why do you like watching movies and series"
       ],
       "responses": [
         "It relaxes me.",
         "It makes me happy",
-        "I just like to spend my time like this"
+        "i like to spend my time this way"
 
       ]
     },
 
-    {
-      "tag": "movies_questions-about-director",
+     {
+      "tag": "movies_and_series_questions-about-director",
       "patterns": [
         "Who is your favorite director?"
       ],
       "responses": [
         "Christopher Nolan",
         "Steven Spielberg",
-        "Martin Scorsese"
+        "Quentin Tarantino"
 
       ]
     },
