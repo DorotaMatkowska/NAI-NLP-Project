@@ -292,7 +292,151 @@
         "Trailforks will help you find the best trails in your area.",
         "With Strava you can compare your performance with others."
       ]
+    },
+    {
+      "tag": "gym-about_gym",
+      "patterns": [
+        "Tell me about gym",
+        "What is gym?",
+        "What do you know about gym?"
+      ],
+      "responses": [
+        "The gym is most often a closed facility used for physical training, in which various devices and machines are usually used.",
+        "The gym is a place where you can find macho men and sexy women ;)",
+        "Gym is an area where people that are training.",
+        "Gym is where you crush your limits."
+      ]
+    },
+    {
+      "tag": "gym-about_body_workout",
+      "patterns": [
+        "Tell me about body workout",
+        "What is training?",
+        "What does it mean to workout?",
+        "What does body workout mean?",
+        "What do you know about body workout?"
+      ],
+      "responses": [
+        "A workout is a period of physical exercise, thanks to which you can achieve your goal, e.g. develop for bodybuilding.",
+        "Training can make you strong.",
+        "Working or training - if you are in a gym it means the same."
+      ]
+    },
+    {
+      "tag": "gym-about_bodybuilding",
+      "patterns": [
+        "Tell me about bodybuilding",
+        "What is bodybuilding?",
+        "What do you know about bodybuilding?"
+      ],
+      "responses": [
+        "Bodybuilding is a sport that consists in harmonious building of the muscles of the whole body.",
+        "Bodybuilding requires regular specific strength training.",
+        "The goal of most people who undertake bodybuilding is to gain muscle mass, reduce body fat and develop their body to its aesthetic ideal."
+      ]
+    },
+    {
+      "tag": "gym-pros",
+      "patterns": [
+        "What are pros of going to the gym?",
+        "What are pros of training?",
+        "What are pros of bodybuilding?",
+        "What are pros of working out?",
+        "What are the benefits of going to the gym?",
+        "What are the benefits of training?",
+        "What are the benefits of bodybuilding?",
+        "What are the benefits of working out?"
+      ],
+      "responses": [
+        "You can lift heavy weights.",
+        "You can lose your weight and become fit.",
+        "You can become a strong man :)",
+        "You could be able to lift a fit lady with one arm ;)",
+        "You can gain more muscles!",
+        "You can become more healthy!"
+      ]
+    },
+    {
+      "tag": "gym-how_to_start",
+      "patterns": [
+        "How to start working out?",
+        "How to start bodybuilding?"
+      ],
+      "responses": [
+        "You can listen to a famous authority for a start: https://www.youtube.com/watch?v=ZNyMuNuHh9E&ab_channel=PraharTiWi",
+        "Here you go: https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/fitness/art-20048269",
+        "'City Fit', 'Calypso' and 'Cox Zone'. They are always worth to check! Pick one and start your training journey!",
+        "To do a body workout or start bodybuilding - going to the gym is probably the best idea.",
+        "First, you have to buy necessary accessories: https://gipara.com/pl/produkty/.",
+        "First, you have to buy ticket to the gym."
+      ]
+    },
+    {
+      "tag": "gym-must_haves",
+      "patterns": [
+        "I already have ticket to the gym. What should I buy next?",
+        "What accessories do I need for gym?",
+        "What should I buy for training?",
+        "What should I buy for gym?",
+        "What equipment do I need?"
+      ],
+      "responses": [
+        "You will need a towel. Always cover the part of gym equipment that you're going to use with your towel for hygiene.",
+        "Gloves can be useful for beter grip and prevents the irritation of inner side of your hand skin.",
+        "Remember about water bottle. It is important to stay hydrated.",
+        "Think about dietary suplements: https://sportowesuple.pl/",
+        "You will need a training bag.",
+        "You will need a training outfit."
+      ]
+    },
+    {
+      "tag": "gym-extra_info",
+      "patterns": [
+        "Could you tell me more about gym?",
+        "Tell me more about gym",
+        "Tell me something about gym",
+        "Should I know more about gym?",
+        "Should I know more about training?",
+        "Should I know more about bodybuilding?",
+        "Should I know more about body workout?"
+      ],
+      "responses": [
+        "There are some useful apps for gym people. Check Freeletics or Mutant Lord.",
+        "Mutant Lord app will transform you into a mutant!",
+        "With Freeletics you can become a healthy and fit person.",
+        "Did you know that Rocket Fuel & Double Blast made Robert Burneika successfull?",
+        "Did you know that Robert Burneika is an international fitness authority? Everyone respect Robert Burneika. There is no lipa!",
+        "Did you know that 'gym' stands for gymnasium? The word is derived from the ancient Greek gymnasium.",
+        "Definition of a really good workout: when you hate doing it, but you love finishing it."
+      ]
+    },
+    {
+      "tag": "gym-motivate",
+      "patterns": [
+        "Could you tell me something motivational?",
+        "Tell me something motivational",
+        "Motivate me",
+        "Tell me a motivational quote"
+      ],
+      "responses": [
+        "No pain, no gain!",
+        "Train insane or remain the same.",
+        "Hard workout is what makes it great",
+        "Don't think about doing it. Just do it.",
+        "Push yourself. No one will do it for you.",
+        "Good things come to those who sweat.",
+        "Motivation is what gets you started. Habit is what keeps you going.",
+        "A one hour workout is 4% of your day. No excuses.",
+        "The body achieves what the mind believes.",
+        "What seems impossible today will one day become your warm-up.",
+        "Someone busier than you is working out right now.",
+        "Work hard in silence. Let success be your noise.",
+        "The hardest lift of all is lifting your butt off the couch.",
+        "When you feel like quitting think about why you started",
+        "The only bad workout is the one that didn't happen",
+        "Don't limit your challenges, challenge your limits.",
+        "Nothing truly great ever came from a comfort zone"
+      ]
     }
-
   ]
 }
