@@ -100,4 +100,7 @@ while True:
                     en_resp = str(en_resp)
                     print(bot_name + ':' + en_resp[en_resp.find("{"):en_resp.find(", pr")])
     else:
-        print(f"{bot_name}: I do not understand...")
+        if detected_lang == 'en':
+            print(f"{bot_name}: I do not understand...")
+        else:
+            print(f"{bot_name}: Nie rozumiem co masz na myśli.")
