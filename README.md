@@ -4,7 +4,7 @@ NLP Project
 **#Autorzy:**
 1. Filip Bianga (s19329)
 2. Dorota Matkowska (s19637)
-3. Daniek Matkowski (s18117)
+3. Daniel Matkowski (s18117)
 4. Adam Tomporowski (s16740)
 
 **#Milestone 01**		
